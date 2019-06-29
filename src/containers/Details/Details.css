@@ -1,0 +1,22 @@
+.mainDetails{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.bodyContent{
+    background-color: rgb(250, 146, 146);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.namePrice{
+    display: flex;
+    width: 96%;
+    height: 100px;
+    background-color: rgb(230, 230, 230);
+    margin-top: 16px;
+}

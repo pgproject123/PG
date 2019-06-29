@@ -1,0 +1,35 @@
+.flatDetail{
+    width: 100%;
+    height: 20%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.divname{
+    padding: 6px;
+    /* padding-bottom: 0px; */
+}
+
+.divname p {
+    margin: 0px;
+    font-family: sans-serif;
+    color: rgb(105, 103, 103);
+}
+
+.priceDetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-bottom: 4px;
+}
+
+.priceDetails p{
+    font-weight: bold; 
+    font-size: 16px; 
+    margin: 0px;
+    color: rgb(85, 84, 84);
+    padding-left: 8px;
+}

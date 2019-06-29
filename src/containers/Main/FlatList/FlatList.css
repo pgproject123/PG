@@ -1,0 +1,34 @@
+.mainFlatlist{
+    display: flex;
+    /* height: 100%; */
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.details{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 100px;
+    margin: 12px 15px;
+    margin-top: 44px;
+    margin-bottom: 0px;
+    border: 2px solid #ddd;
+    border-bottom: 0px;
+    
+}
+
+.elements{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    /* height: 70%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 15px;
+    border: 2px solid #ddd;
+    
+}

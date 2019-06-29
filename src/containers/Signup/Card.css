@@ -1,0 +1,8 @@
+.Card{
+    height: 94%;
+    padding: 10px;
+    display: flex;
+    background-color: #f2f2f2;
+    width: 98%;
+    border-radius: 10px;
+}

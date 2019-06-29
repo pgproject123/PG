@@ -1,0 +1,26 @@
+.main{
+    height:30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main a{
+    color: azure;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 14px;
+} 
+
+.main img {
+    position: absolute;
+    left: 5px;
+    
+}
+
+.cc{
+    width: 30px;
+    height: 20px;
+}

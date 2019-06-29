@@ -1,0 +1,27 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.bkgImg{
+    height: 100%;
+    width: 70%;
+    border: 3px solid red;
+    border-right: 0;
+}
+
+.signup{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    border: 3px solid red;
+}
