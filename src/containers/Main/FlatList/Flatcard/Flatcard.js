@@ -11,7 +11,7 @@ const FlatCard = (props) => {
                   <img src={Image}/>
               </div>
               <FlatDetail
-                name="Samarth Krupa"
+                name="MY FLAT"
                 price="Rs 2000"
               />
         </div>
