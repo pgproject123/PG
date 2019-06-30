@@ -1,22 +1,25 @@
 import React, { Component } from 'react'
 import classes from './Details.css'
 import Header from './Header/Header'
-import Images from './Images/Images';
-import Features from './Features/Features';
+import FlatInfo from './FlatInfo/FlatInfo';
+// import Features from './Features/Features';
+import FlatName from './FlatName/FlatName';
+import ReviewBox from './ReviewBox/ReviewBox';
 
 class Details extends Component {
     render() {
         return (
-             <div className={classes.mainDetails}>
-                 <Header />
-                 <div className={classes.bodyContent}>
-                     <div className={classes.namePrice}>
+            <div className={classes.mainDetails}>
+                <Header />
+                <div className={classes.bodyContent}>
+                    <div className={classes.nav}>
 
-                     </div>
-                    <Images />
-                    <Features />
-                 </div>
-             </div>
+                    </div>
+                    <FlatName />
+                    <FlatInfo />
+                    <ReviewBox />
+                </div>
+            </div>
         );
     }
 }

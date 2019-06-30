@@ -1,0 +1,77 @@
+.flatImages{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2px; 
+    border: 1px solid #ddd;
+    border-top: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cascade{
+    width: 40%;
+    height: 90%;
+    border: 0px solid black;
+    position: relative;
+    margin-left: 16px;
+}
+
+.imgWrapper{
+    position: absolute;
+    height: 100%;
+    width:100%;
+}
+
+.divImg{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    border: 1px solid black;
+}
+
+.featuresbox{
+    width: 54%;
+    height: 90%;
+    border: 1px solid black;
+    margin: 0px auto;
+    margin-right: 16px;
+    display: flex;
+}
+
+
+
+.buttons{
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons p {
+    align-self: flex-end;
+    margin-right: 12px; 
+}
+
+.buttons button {
+    width: 90%;
+    margin: 8px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.offers{
+    margin: auto 0px;
+    margin-bottom: 0px;
+    width: 100%;    
+}
+
+.offers p {
+    text-align: end;
+    margin-bottom: 6px;
+    margin-right: 6px;
+}

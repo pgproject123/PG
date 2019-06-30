@@ -1,0 +1,11 @@
+.reviewBox{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.reviewBody{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}

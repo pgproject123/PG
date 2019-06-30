@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import classes from './Flatcard.css'
 import FlatDetail from './FlatDetail/FlatDetail';
+import {withRouter} from 'react-router-dom';
 
 const FlatCard = (props) => {
     return (
-        <div className={classes.flatcard}>
+        <div className={classes.flatcard} onClick={() => props.history.push('/detail')}>
               <div className={classes.flatImg}>
                   
               </div>
@@ -16,4 +17,4 @@ const FlatCard = (props) => {
     );
 }
 
-export default FlatCard;
+export default withRouter(FlatCard);
