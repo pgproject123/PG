@@ -1,12 +1,8 @@
-*{
-    box-sizing: border-box;
-}
-
 .header{
-    height: 80px;
-    background-color: #afafaf;
+    height: 60px;
+    background-color: #4f87d6;
     display: flex;
-    width: 100%;
+    justify-content: space-between;
 }
 
 .title {
@@ -20,4 +16,21 @@
     margin:0;
     color: azure;
     
+}
+
+.options{
+    display: flex;
+}
+
+.options p {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px 24px;
+    margin-bottom: 16px;
 }

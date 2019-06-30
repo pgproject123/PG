@@ -9,7 +9,10 @@ class Main extends React.Component {
     render() {
         return (
              <div className={classes.main}>
-                 <Header />
+                 <Header 
+                    title="Home"
+                 />
+                 
                  <div className={classes.contentbody}>
                     <Sidebar />
                     <FlatList />

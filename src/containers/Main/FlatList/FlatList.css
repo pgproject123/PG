@@ -8,17 +8,47 @@
     flex-direction: column;
 }
 
-.details{
+
+.mainFlatlist p {
+    font-size: 18px;
+    margin: 16px 0px;
+    margin-left: 24px;
+}
+
+.sort{
     display: flex;
-    background-color: rgb(255, 255, 255);
-    width: 90%;
-    height: 100px;
-    margin: 12px 15px;
-    margin-top: 44px;
     margin-bottom: 0px;
-    border: 2px solid #ddd;
-    border-bottom: 0px;
+    margin-left: 24px;
     
+    
+}
+
+.sort p{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    margin-right: 16px;
+}
+
+.sort ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.sort li {
+    margin-right: 36px;
+    display: flex;
+    
+}
+
+.price p{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: inherit;
 }
 
 .elements{
@@ -28,7 +58,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0px 15px;
-    border: 2px solid #ddd;
+    margin: 0px 0px;
+    border: 0px solid #ddd;
     
 }

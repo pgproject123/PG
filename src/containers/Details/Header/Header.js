@@ -7,6 +7,9 @@ const Header = (props) => {
             <div className={classes.title}>
                 <h1>{props.title}</h1>
             </div>
+            <div className={classes.options}>
+                <p> Login </p> <p> Log out </p>
+            </div>
 
         </div>
     )

@@ -27,6 +27,7 @@
 .checkbox input {
     padding: 0;
     margin: 10px;
+    background-color: #d1d1d1;
 }
 
 .checkbox label{

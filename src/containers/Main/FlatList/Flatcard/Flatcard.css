@@ -1,12 +1,17 @@
 .flatcard{
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 300px;
     width: 280px;   
     border: 1px solid rgb(206, 206, 206);
-    margin: 18px 0px 0px 21px;
+    margin: 16px 0px 0px 21px;
     border-radius: 4px;
     box-shadow: 1px 1px 4px #ccc;
+}
+
+.flatcard:hover{
+    border: 1px solid #b1c0d4;
+    box-shadow: 1px 1px 8px rgb(124, 124, 124);
 }
 
 .flatImg{
@@ -21,3 +26,7 @@
 
 }
 
+.flatImg img{
+    width: 278px;
+    height: 238px;
+}

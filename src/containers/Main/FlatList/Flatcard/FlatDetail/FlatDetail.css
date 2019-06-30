@@ -21,15 +21,14 @@
 
 .priceDetails{
     display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    margin-bottom: 4px;
+    padding-bottom: 0px;
 }
 
 .priceDetails p{
     font-weight: bold; 
-    font-size: 16px; 
+    font-size: 18px; 
     margin: 0px;
     color: rgb(85, 84, 84);
     padding-left: 8px;
+    padding-bottom: 4px;
 }

@@ -1,11 +1,20 @@
-*{
-    box-sizing: border-box;
-}
-
 .header{
     height: 60px;
-    background-color: #c4c4c4;
+    background-color: #4f87d6;
     display: flex;
+    /* justify-content: space-between; */
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sidebar p {
+    margin: 0px;
+    margin-left: 16px;
+    font-size: 10px;
 }
 
 .title {
@@ -19,4 +28,22 @@
     margin:0;
     color: azure;
     
+}
+
+.options{
+    display: flex;
+    margin-left: auto;
+}
+
+.options p {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px 24px;
+    margin-bottom: 16px;
 }

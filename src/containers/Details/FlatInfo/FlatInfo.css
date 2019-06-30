@@ -27,7 +27,7 @@
 .divImg{
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    background-color: #4f87d6;
     display: flex;
     border: 1px solid black;
 }

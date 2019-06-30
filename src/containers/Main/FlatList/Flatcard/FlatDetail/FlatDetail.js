@@ -10,7 +10,6 @@ const FlatDetail = (props) => {
 
             <div className={classes.priceDetails}>
                 <p> {props.price} </p>
-                <p> </p>
             </div>
 
         </div>
