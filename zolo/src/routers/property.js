@@ -1,6 +1,8 @@
 const property = require('../models/property')
 const express = require('express')
 const auth = require('../middleware/auth')
+const request = require('request')
+
 
 
 const router = new express.Router()
@@ -12,9 +14,25 @@ router.post('/property/create',auth,async (req,res) => {
     if(req.user.manager === true)
     {
     const prop1 = new property(req.body)
+    const url = 'https://maps.googleapis.com/maps/api/geocode/json?address='+ req.body.location +',+CA&key=AIzaSyCg0693hHjd0Pl9qMR8euPqK6N5DG_9FA8'
+    console.log(prop1)
+    await request({ url, json: true }, (error, { body }) => {
+        if (error) {
+            throw new Error("Property could not be created")
+        } 
+         else {
+            
+                console.log(body.results[0])
+             prop1.latitude=body.results[0].geometry.location.lat
+             prop1.longitude=body.results[0].geometry.location.lng
+            
+        }
+    })
+
+    
     await prop1.save()
 
-    res.status(200).send(prop1)
+    res.status(200).send()
     }
     else{
         throw new Error("You are not authorised")

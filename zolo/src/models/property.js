@@ -19,12 +19,15 @@ const propertySchema = new mongoose.Schema({
         trim:true
     },
 
-    gender: {
-        type: String,
-        trim:true
+    latitude:{
+        type:Number
     },
 
-    roomtypes: {
+    longitude:{
+        type:Number
+    },
+
+    gender: {
         type: String,
         trim:true
     },
@@ -64,50 +67,28 @@ const propertySchema = new mongoose.Schema({
         default: false
     },
 
-    fan: {
-        type:Boolean,
-        default:true
-    },
-
-    fridge:{
-        type:Boolean,
-        default:false
-    },
 
     wifi:{
         type:Boolean,
         default:true
     },
 
-    //WIFI speeds and service provider information
-    wifides: {
-        type:String
-    },
-
-    wardrobe:{
+    food:{
         type:Boolean,
         default:true
     },
 
-    security:{
+    tv:{
         type:Boolean,
         default:true
     },
 
-    powerbackup:{
+    parking:{
         type:Boolean,
         default:true
     },
 
-    //DEscribes amount of time power backup works at its capacity
-    powerbackupdes: {
-        type:String
-    },
-
-    geyser:{
-        type:Boolean,
-        default:true
-    },
+    
 
     //b_image list has property image
     b_image: [{
